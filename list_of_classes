@@ -1,0 +1,6 @@
+user_class = input('Please enter your first class: ')
+class_list.append(user_class)
+while class != 'x' and class != 'X':
+	user_class = input('Please typein yout next class, or type x to exit.')
+	class_list.append(user_class)
+print('Thank you. Here's a list of all your classes. ' + clast_list')
